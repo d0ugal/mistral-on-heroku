@@ -1,0 +1,4 @@
+psycopg2
+uwsgi
+
+-e git+https://github.com/openstack/mistral.git#egg=mistral

@@ -1,0 +1,16 @@
+{
+  "name": "Mistral on Heroku",
+  "description": "A quick way to test Mistral on Heroku",
+  "repository": "https://github.com/d0ugal/mistral-heroku",
+  "keywords": ["openstack", "mistral", ],
+  "addons": [
+    {
+      "plan": "rabbitmq-bigwig:pipkin",
+      "as": "rabbit"
+    },
+    {
+      "plan": "heroku-postgresql:hobby-dev",
+      "as": "postgres"
+    }
+  ]
+}
