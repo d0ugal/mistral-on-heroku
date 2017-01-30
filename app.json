@@ -2,7 +2,7 @@
   "name": "Mistral on Heroku",
   "description": "A quick way to test Mistral on Heroku",
   "repository": "https://github.com/d0ugal/mistral-heroku",
-  "keywords": ["openstack", "mistral", ],
+  "keywords": ["openstack", "mistral"],
   "addons": [
     {
       "plan": "rabbitmq-bigwig:pipkin",
